@@ -1,0 +1,15 @@
+.products-list {
+  width: 50%;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.products-list .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px;
+}

@@ -1,0 +1,4 @@
+.products-containier {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -66,7 +66,6 @@ class CartCheckout extends React.Component {
 
   render() {
     let { data } = this.props.items;
-    console.log("props in checkout", data);
     let { username, email, phoneNumber } = this.state;
     return (
       <div className="checkout-form">
